@@ -1,0 +1,162 @@
+html{font-family: 'Nanum Myeongjo', serif;, box-sizing: border-box; scroll-behavior: smooth;}
+		body,h1,h2,p,div,ul,li footer{z-index: auto; margin: 0; padding: 0;}
+		body 
+		header{background: url("../img/star.gif"), -webkit-gradient(linear, left top, 
+			left bottom, from(#4B088A), to(#100719)); position:relative; z-index:-1;}
+		audio { background: #9C9A9E; border: 2px groove #ababab;}
+
+		body {background: -webkit-gradient(linear, left top, 
+			left bottom, from(#47018D), to(#100719)); position:relative; z-index:-1;}
+
+		body header nav {list-style-type: none; margin:auto; padding-top: 20px; display:block; 
+				height: 60px; width: 150px;}
+		body header nav ul {list-style-type: none; margin: 10px; }
+		body header nav ul li {background: #848484; border: 2px groove #ababab; margin: 10px; } 
+		body header nav ul li a{display: block; text-decoration: none; line-height: 20px; text-align: center;  
+					color: white; font-family:'Sriracha', cursive; font-size: 1em; 
+					text-decoration: underline;}
+		body header nav ul li a:hover{background: #0206FD; color: white; transition: all 0.5s 
+				border: 2px outset #0206FD; text-decoration: underline; groove #0206FD;} 
+
+		 section div  nav {}
+		 section div  nav ul {margin:0px; font-family:'Sriracha', cursive; }
+		 section div  nav ul li {list-style-type: none;  width: 100%; height: 40px;}
+		 section div  nav ul li a{background: none;}
+		 section div  nav ul li a:hover{background: black; border: 2px color:white; transition: all 0.1s; height: 30;}
+
+
+
+
+		body a {display line-height: 80px;}
+
+		
+
+		footer {background: url("../img/star.gif"), -webkit-gradient(linear, left top, 
+			left bottom, from(#000000), to(#0B0B61)); position:relative; z-index:-1; display: block; height: 850px; }
+		a {text-decoration: none;}
+
+
+		.flexbox{display: flex;}
+		.flexinline{display: inline-flex;}
+		.row{width:1000px; margin: auto; z-index: 2; position: relative;}
+		.row1{width:100%; margin: auto; z-index: 3; position: relative;}
+		.row2{z-index: 6; position: relative;}
+		.row3{z-index: 7; position: relative;}
+		.row4{z-index: 7; position: fixed bottom:5px left:5px;}
+
+		.none{text-decoration: none;}
+
+			.row div{padding: 10px;}
+
+			.text-center{text-align: center;}
+			.titlefont{display: block; font-family:'Sriracha', cursive; font-size: 4em; padding-top: 10px;}
+			.subtitlefont{font-family: 'Dancing Script', cursive; font-size: 1.5em;}
+			.subtitlefont2{font-family: 'Dancing Script', cursive; font-size: 3em;}
+			.subtitlefont3{font-family: 'Dancing Script',  cursive; font-weight:400; font-size: 1.5em; 
+							line-height: 4em;}
+			.subtitlefont4{font-weight:400; font-size: 1.5em; line-height: 4em;}
+			.text_border {text-shadow: 0 0 4px black;}
+			.text_border0 {text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; color; none;}
+			.text_border1 {text-shadow: 0 0 8px white;}
+			.text_border2 {text-shadow: 0 0 15px white;}
+			.text_border-white {text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;}
+			.padding30{ padding-top:30px;}
+			.padding10{ padding-top:10px;}
+			.padding100{ padding-top:100px;}
+			.padding200{ padding-top:200px;}
+			.padding220{ padding-top:220px;}
+			.aa{font-family:'Sriracha', cursive; font-size: 1.3em; padding-top: 10px line-height:1.5em; }
+			.sp{color: black;}
+			.paddingtop50{padding-top: 50px}
+	
+
+			.col-1{width: 16.6%;}
+			.col-2{width: 33.33%;}
+			.col-3{width: 50%;}
+			.col-4{width: 66.6%;}
+			.col-5{width: 83.32%;}
+			.col-6{width: 100%;}
+
+			.img800{display: block; width:100%; margin: auto; padding: 0;}
+			.img110{display: block; width:100px; margin: auto; padding: 0;}
+			.img100{display: block; width:300px; margin: auto; padding: 0;}
+			.imgif{display: inline-block; width:250px; margin: auto; padding: 0;}
+			.imgif2{display: inline-block; width:400px; margin: auto; padding: 0; position: absolute; right: 50px; }
+			.imgif3{display: block; width:90px; position: absolute; left: 300px;}
+			.imgif4{display: block; width:90px; position: absolute; right: 300px;}
+			.imgif5{display: block; width:90px; position: absolute; left: 200px;}
+			.imgif6{display: block; width:90px; position: absolute; right: 200px;}
+
+			.text-white{color: white;}
+
+			.h-100{height: 100px;}
+			.h-200{height: 200px;}
+				.h-300{height: 300px;}
+			.h-400{height: 400px;}
+			.h-600{height: 600px;}
+			.h-700{height: 700px;}
+			.h-800{height: 800px;}
+			.titledesign {background: linear-gradient(to right, #221086, #C013E8);
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign2 {background: linear-gradient(to right, #F901E8, #0069FC);
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign3 {background: linear-gradient(to right, #0069FC, #6A0888 );
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign4  {background: linear-gradient(to right,#0080FF , #086A87 );
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign5  {background: linear-gradient(to right,#088A85, #0101DF );
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign01  {background: linear-gradient(to right,#BFFF00, #0B3B0B );
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign02  {background: linear-gradient(to right,#FF00BF, #0101DF );
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign03  {background: linear-gradient(to right,#3B0B24, #0101DF );
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}
+	  		.titledesign04  {background: linear-gradient(to right,#088A85, #0101DF );
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}	
+	  		.titledesign05  {background: linear-gradient(to right,#DF0101, #0404B4 );
+	 				 -webkit-background-clip: text;
+	  					-webkit-text-fill-color: transparent;}			
+	  		.abs{width:300px;height: 100px; position: absolute; left: calc(50% - 150px); z-index: 2}
+	  		.abs2{width:400px;height: 100px; position: absolute; left: calc(50% - 73px); z-index: 2}
+			.abs3{width:500px;height: 100px; position: absolute; left: calc(50% - 166px); z-index: 2}
+			.abs4{width:500px;height: 100px; position: absolute; left: calc(50% - 111px); z-index: 2}
+			.abs5{width:560px;height: 310px; position: absolute; left: calc(50% - 280px); z-index: 2}
+			.abs6{width:560px;height: 310px; position: absolute; left: calc(50% - 132px); z-index: 2}
+			.abs7{width:560px;height: 310px; position: absolute; left: calc(50% - 127px); z-index: 2}
+			.abs8{width:560px;height: 310px; position: absolute; left: calc(50% - 88px); z-index: 2}
+			.abs9{width:560px;height: 310px; position: absolute; left: calc(50% - 94px); z-index: 2}
+			.abs10{width:560px;height: 310px; position: absolute; left: calc(50% - 120px); z-index: 2}
+			.abs11{width:300px;height: 400px; position: absolute; left: calc(50% - 180px); z-index: 2}
+
+	  		.absleft{width:300px;height: 100px; position: absolute; left:0; z-index: 3}
+	  		.absright{width:50%;height: 50%; position: absolute; right:0; z-index: 3}
+	  		.abu{width:300px;height: 100px; position: absolute; left: calc(50% - 150px); z-index: 3}
+	  		.rel{position: relative;}
+
+	  		.sec1{background:#100719;}
+	  		.sec2{background: linear-gradient(#0101DF,#100719,) fixed;}
+	  		.text{font-size:1em; line-height:2.7em; text-align: left;}
+	  		.cha{font-size:1.3em; color:#0000FF; text-decoration: underline; z-index:5; font-weight:border;}
+	  		.st{ position: absolute; left: 100px; top:350px; font-family:'Sriracha', cursive; font-size: 1.6em;}
+	  		.js{ position: absolute; left: 290px; top:230px;font-family:'Sriracha', cursive; font-size: 1.6em;}
+	  		.al{ position: absolute; left: 430px; top:330px;font-family:'Sriracha', cursive; font-size: 1.6em;}
+	  		.gn{ position: absolute; left: 640px; top:300px;font-family:'Sriracha', cursive; font-size: 1.6em;}
+	  		.jf{ position: absolute; left: 820px; top:360px;font-family:'Sriracha', cursive; font-size: 1.6em;}
+	  		.charac{border: 15px groove #D7DF01; } 
+	  		.grgr{background:-webkit-gradient(linear, left top, 
+			left bottom, from(#100719), to(#000000)); position:relative; z-index:-1;}
+
+
+
+
+
